@@ -28,6 +28,8 @@ RUN pkgadd vim ranger
 
 RUN pkgadd firefox firefox-locale-ja
 
+RUN pkgadd xterm
+
 # nginx
 RUN pkgadd nginx
 COPY files/nginx/htpasswd /etc/nginx/htpasswd

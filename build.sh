@@ -1,2 +1,3 @@
-docker build . -t tukiyo3/novnc \
-  && sh run.sh
+docker build . -t wittyfool/novnc 
+#
+# && sh run.sh
